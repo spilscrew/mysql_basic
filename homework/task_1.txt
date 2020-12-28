@@ -1,0 +1,7 @@
+Проанализировать структуру БД vk, которую мы создали на занятии, и внести предложения по усовершенствованию (если такие идеи есть). Напишите пожалуйста, всё-ли понятно по структуре.
+
+1. Поменять "INT UNSIGNED NOT NULL AUTO_INCREMENT" на "SERIAL" для таблиц "users, messages, friendship_statuses, communities, media, media_types".
+
+2. Создать отдельные, взаимосвязанные таблицы "countries" и "cities". Соответсвенно в профиль записывать "country_id" и "city_id".
+
+3. Добавить в таблицу "countries" параметр "country_code" и "iso_code". Так-же добавить "country_code" параметр в таблицу "users", который будет браться из ранее созданной таблицы "countries".
